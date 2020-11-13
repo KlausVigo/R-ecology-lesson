@@ -1,10 +1,11 @@
 ---
-title: "Data Analysis and Visualization in R for Ecologists"
-author: François Michonneau & Auriel Fournier (Lesson Maintainers)
+title: "Data Analysis and Visualization in R"
+author: Klaus Schliep, François Michonneau & Auriel Fournier
 ---
 
 
-
+This is based on the Data Carpentry lesson _Data Analysis and Visualization in R for Ecologists_
+from François Michonneau & Auriel Fournier (Lesson Maintainers). 
 Data Carpentry's aim is to teach researchers basic concepts, skills,
 and tools for working with data so that they can get more done in less
 time, and with less pain. The lessons below were designed for those interested
@@ -29,7 +30,12 @@ experience.
 3. [Starting with data](02-starting-with-data.html)
 4. [Manipulating, analyzing and exporting data with **`tidyverse`**](03-dplyr.html)
 5. [Data visualization with **`ggplot2`**](04-visualization-ggplot2.html)
-
+6. [Producing reports with **`knitr`**](05-Reports_with_knitr.html)
+7. [Control flow](06-control-flow.html)
+8. [Vectorization](08-vectorization.html)
+9. [Functions](07-functions.html)
+10. [Command line](09-commandline.html)
+11. [Writing good software](16-wrap-up.html)
 
 ## Preparations
 

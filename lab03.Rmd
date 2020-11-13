@@ -1,0 +1,33 @@
+---
+title: "Lab 3 R Scripting"
+author: "657.019 Scripting for Biotechnologists (WS 2020/21)"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data manipulation
+
+Read in the data set `miete.tsv`. 
+
+The dataset contains data from a Munich rent standard database from 1994. You can find a description of the data set typing `?kknn::miete`. 
+
+What is the range for the net rent `nm`  and net rent per sqm `nmqm` for living in an apartment with less than 50 sqm with 1 room and build after 1966?
+
+How does this compare to sharing a flat with at least 3 rooms and 80 sqm? 
+
+What would be the rent of your current flat (or one you make up) using these categories and traveling back in time to Munich?
+
+
+## Data manipulation & plots
+
+Read in the data set `mystery.csv`. 
+
+The mystery has three variables, dataset, x and y. 
+Compute summary statistics like the, min, max, mean and standard deviation `sd()` for both x and y and correlation between the two variables `cor(x,y)`. Compute these values also by grouping the variables using the variable dataset.  
+
+Explore the `mystery` with different plots. Hint use Faceting. 
+
+What is the problem with the summary statistics?
